@@ -21,14 +21,12 @@ header .logo {
     font-size: 24px;
     font-weight: bolder;
     color: #f9faf8; 
-    width: 60%;
     padding-left: 7em;
     flex-grow: 3;
 }
 
 header .nav {
     list-style: none;
-    width: 40%;
     padding-right: 5em;
     display: flex;
     flex-grow: 1;
@@ -62,7 +60,7 @@ header .nav a {
 
 .intro article p {
     color: #e5e7eb;
-    padding-top: 1.2em;
+    margin-top: 1.2em;
 }
 
 .intro article button {
