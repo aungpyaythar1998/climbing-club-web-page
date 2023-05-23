@@ -42,30 +42,30 @@ header ul a {
     color: #e5e7eb;
 }
 
-section {
+.intro {
     height: 360px;
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
-article {
+.intro article {
     width: 30%;
     padding-right: 2em;
 }
 
-article h2 {
+.intro article h2 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-article p {
+.intro article p {
     color: #e5e7eb;
     padding-top: 1.2em;
 }
 
-article button {
+.intro article button {
     font-size: 1em;
     font-weight: bold;
     color: #f9faf8;
