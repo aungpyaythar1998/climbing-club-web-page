@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    background: #1f2937;
+}
+
+header {
+    padding: 18px 12px 12px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8; 
+    width: 54%;
+    padding-left: 8.5em;
+    flex-grow: 3;
+}
+
+header ul {
+    width: 46%;
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    gap: 24px;
+}
+
+header ul a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
