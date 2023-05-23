@@ -43,6 +43,7 @@ header ul a {
 }
 
 section {
+    height: 400px;
     margin-top: 50px;
     display: flex;
     justify-content: center;
