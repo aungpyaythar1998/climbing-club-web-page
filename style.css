@@ -101,7 +101,6 @@ header .nav a {
 
 .news-feed {
     display: flex;
-    justify-content: center;
     gap: 50px;
 }
 
