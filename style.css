@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    padding: 18px;
+    padding: 1.2em 7em 1.2em 12em;
     display: flex;
     align-items: center;
 }
@@ -21,13 +21,11 @@ header .logo {
     font-size: 24px;
     font-weight: bolder;
     color: #f9faf8; 
-    padding-left: 7em;
     flex-grow: 3;
 }
 
 header .nav {
     list-style: none;
-    padding-right: 5em;
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
@@ -41,14 +39,12 @@ header .nav a {
 }
 
 .intro {
-    height: 360px;
     display: flex;
-    justify-content: center;
-    margin: 80px 0 150px 0;
+    padding: 5em 7em 10em 12em;
 }
 
 .intro article {
-    width: 30%;
+    width: 40%;
     padding-right: 2em;
 }
 
@@ -76,7 +72,12 @@ header .nav a {
 }
 
 .image {
-    width: 40%;
+    width: 30%;
+}
+
+.intro article, 
+.image {
+    height: 340px;
 }
 
 .image img {
@@ -118,3 +119,25 @@ header .nav a {
     width: 100%;
     height: 190px;
 }
+
+.quote blockquote {
+    background: #e5e7eb;
+    padding: 8em 20em;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote blockquote figcaption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 1.8em;
+}
+
+
