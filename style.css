@@ -43,7 +43,7 @@ header ul a {
 }
 
 section {
-    height: 400px;
+    height: 360px;
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -51,7 +51,6 @@ section {
 
 article {
     width: 30%;
-    height: 350px;
     padding-right: 2em;
 }
 
@@ -84,5 +83,5 @@ article button {
 
 .image img {
     width: 500px;
-    height: 350px;
+    height: 100%;
 }
