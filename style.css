@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,9 +12,8 @@ body {
 }
 
 header {
-    padding: 18px 12px 12px 12px;
+    padding: 18px 8px 12px 8px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -21,16 +21,18 @@ header .logo {
     font-size: 24px;
     font-weight: bolder;
     color: #f9faf8; 
-    width: 54%;
+    width: 60%;
     padding-left: 8.5em;
     flex-grow: 3;
 }
 
 header ul {
-    width: 46%;
     list-style: none;
+    width: 40%;
+    padding-right: 5em;
     display: flex;
     flex-grow: 1;
+    justify-content: flex-end;
     gap: 24px;
 }
 
