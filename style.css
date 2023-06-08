@@ -21,11 +21,12 @@ header .logo {
     font-size: 24px;
     font-weight: bolder;
     color: #f9faf8; 
-    flex-grow: 3;
+    flex: 3 0 360px;
 }
 
 header nav {
     flex-grow: 1;
+    flex: 1 0 320px;
 }
 
 header nav ul {
@@ -47,8 +48,9 @@ header nav ul a {
 }
 
 .intro article {
-    width: 40%;
     padding-right: 2em;
+    width: 400px;
+    flex-shrink: 0;
 }
 
 .intro article h2 {
@@ -75,17 +77,17 @@ button.signup {
 }
 
 .image {
-    width: 30%;
-}
-
-.intro article, 
-.image {
-    height: 340px;
+    width: 500px;
+    min-width: 350px;
 }
 
 .image img {
-    width: 500px;
+    width: 100%;
     height: 100%;
+}
+
+.intro article , .intro .image {
+    height: 22em;
 }
 
 .news {
