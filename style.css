@@ -44,7 +44,8 @@ header nav ul a {
 
 .intro {
     display: flex;
-    padding: 5em 7em 10em 12em;
+    justify-content: center;
+    padding: 7em 0 10em;
 }
 
 .intro article {
